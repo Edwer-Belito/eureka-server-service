@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.nttdata</groupId>
-	<artifactId>eureka-server</artifactId>
+	<artifactId>eureka-server-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eureka-server-service</name>
 	<description>eureka server service</description>
