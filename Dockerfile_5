@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
 LABEL maintainer="ebelitoa@nttdata.com"
-ADD eureka-server-service-0.0.1-SNAPSHOT.jar eureka-server-service-0.0.1-SNAPSHOT.jar
+ADD target/eureka-server-service-0.0.1-SNAPSHOT.jar eureka-server-service-0.0.1-SNAPSHOT.jar
 EXPOSE 8761
 ENTRYPOINT ["java", "-jar","/eureka-server-service-0.0.1-SNAPSHOT.jar"]
